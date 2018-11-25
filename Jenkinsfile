@@ -7,7 +7,7 @@ pipeline{
    stages {
       stage('Pull') { 
          steps{
-           git 'https://github.com/talhakhannnnn/jenkins-practice-repo.git'
+           git 'https://github.com/samanbatoolInvesco/JenkinsTask.git'
          }
        }
       stage ('Build'){
